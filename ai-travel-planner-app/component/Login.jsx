@@ -45,34 +45,7 @@ export default function Login() {
           }}>Get Started</Text>
         </TouchableOpacity>
       </View>
-      {/* Sign In Button */}
-      <View style={{
-        padding: 15,
-        backgroundColor: Colors.PRIMARY,
-        borderRadius: 15,
-        marginTop: 50,
-        borderWidth: 1,
-      }}>
-        <Text style={{
-            color: Colors.WHITE,
-            textAlign: "center"
-        }}>Sign In</Text>
-      </View>
-      {/* Create Account Button */}
-      <TouchableOpacity 
-        onPress={() => router.push("/auth/sign-up")}
-      style={{
-        padding: 15,
-        backgroundColor: Colors.WHITE,
-        borderRadius: 15,
-        marginTop: 50,
-        borderWidth: 1,
-      }}>
-        <Text style={{
-            color: Colors.PRIMARY,
-            textAlign: "center"
-        }}>Create Account</Text>
-      </TouchableOpacity>
+      
     </View>
   );
 }
